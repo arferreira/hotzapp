@@ -31,7 +31,7 @@
         }
     },
     "require": {
-        "php": "^7.3|^8.0",
+        "php": "~7.3|~8.0",
         "akaunting/money": "^1.1",
         "biscolab/laravel-recaptcha": "^5.0",
         "codedge/laravel-selfupdater": "@dev",
