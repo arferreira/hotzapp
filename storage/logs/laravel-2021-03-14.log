@@ -1,0 +1,37 @@
+[2021-03-14 18:20:10] local.ERROR: Your configuration files are not serializable. {"exception":"[object] (LogicException(code: 0): Your configuration files are not serializable. at /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/vendor/laravel/framework/src/Illuminate/Foundation/Console/ConfigCacheCommand.php:71)
+[stacktrace]
+#0 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Foundation\\Console\\ConfigCacheCommand->handle()
+#1 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#3 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/vendor/laravel/framework/src/Illuminate/Container/Container.php(610): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call(Array)
+#6 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/vendor/symfony/console/Command/Command.php(256): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#7 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/vendor/symfony/console/Application.php(971): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/vendor/symfony/console/Application.php(290): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\ConfigCacheCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/vendor/symfony/console/Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/vendor/laravel/framework/src/Illuminate/Console/Application.php(92): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+
+[previous exception] [object] (Error(code: 0): Call to undefined method Illuminate\\Validation\\Rules\\In::__set_state() at /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/bootstrap/cache/config.php:2443)
+[stacktrace]
+#0 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/vendor/laravel/framework/src/Illuminate/Foundation/Console/ConfigCacheCommand.php(67): require()
+#1 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Foundation\\Console\\ConfigCacheCommand->handle()
+#2 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#4 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#5 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/vendor/laravel/framework/src/Illuminate/Container/Container.php(610): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#6 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call(Array)
+#7 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/vendor/symfony/console/Command/Command.php(256): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#9 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/vendor/symfony/console/Application.php(971): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/vendor/symfony/console/Application.php(290): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\ConfigCacheCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/vendor/symfony/console/Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/vendor/laravel/framework/src/Illuminate/Console/Application.php(92): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 /Users/antonioricardo/Downloads/whatsapp-food-2.1.1/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 {main}
+"} 
